@@ -111,33 +111,42 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide transition={["fade"]}>
-          <Heading size={6} textColor="secondary" caps>Your plan out of it</Heading>
+          <Heading size={6} textColor="secondary" caps>What are your goals?</Heading>
           <List>
             <ListItem>Be different and unique</ListItem>
-            <ListItem>Earn time</ListItem>
-            <ListItem>Move to the technical people review</ListItem>
+            <ListItem>Get more review time & focus</ListItem>
+            <ListItem>Cross to technical review</ListItem>
           </List>
         </Slide>
 
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>How is it working?</Heading>
           <Text> 
-          HR, most of the time don't know to judge and review your website (professionally), so they just pass it down to the technical
+          HR often turns to the technical team for assistance and technical review of your Resume. So, your Resume is an opportunity to do more than tell your story. It’s how you can show what you can do.
           </Text>
         </Slide>
 
         <Slide transition={["fade"]}>
-          <Heading size={6} textColor="secondary" caps>What this say about you?</Heading>
+          <Heading size={6} textColor="secondary" caps>What if your Resume were a React application?</Heading>
           <List>
-            <ListItem>You have an out of the box way of thinking</ListItem>
-            <ListItem>You really like what you do, so you do the extra mile (faster progress in the future)</ListItem>
-            <ListItem>You take the job search seriously</ListItem>
-            <ListItem>You know to translate theory to practice</ListItem>
+            <ListItem>Out-of-the-box thinking</ListItem>
+            <ListItem>You care about the quality of what you deliver</ListItem>
+            <ListItem>You take pride in your work and take it seriously</ListItem>
+            <ListItem>You understand how code and business goals play together</ListItem>
           </List>
         </Slide>
 
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>More advantages</Heading>
+        </Slide>
+
+        <Slide transition={["fade"]}>
+          <Heading size={6} textColor="secondary" caps>Tech teams can view your code</Heading>
+          <List>
+            <ListItem>Open source the code</ListItem>
+            <ListItem>Tech teams can see your best work</ListItem>
+            <ListItem>Get feedback and improve your coding skills</ListItem>
+          </List>
         </Slide>
 
         <Slide transition={["fade"]}>
@@ -152,14 +161,14 @@ export default class Presentation extends React.Component {
           <Heading size={6} textColor="secondary" caps>dynamic versions</Heading>
           <Text textColor="secondary">
           You can change the content any time (as opposed to a sealed PDF)
-          You can perform A/B testing on your resume
+          and even perform A/B testing on your resume
           </Text>
         </Slide>
 
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>An ice breaker</Heading>
           <Text textColor="secondary">
-          There is high chance the interviewer will ask you about it. 
+          There is a good chance the interviewer will ask you about it. 
           It's a good start for a conversation on a project you fully control
           </Text>
         </Slide>
@@ -167,8 +176,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>It's all about data</Heading>
           <Text textColor="secondary">
-          Using dyamic page you can present more data without making it too noisy
-          Show graphs, show and hide sections
+          Using a dynamic page you can visualize cool data and make it look beautiful
           </Text>
           <Image height="200px" width="680px" src="https://camo.githubusercontent.com/03279b0709a76cdbc2bd483f6dd5161b777ad77c/687474703a2f2f692e696d6775722e636f6d2f6536446c7a66412e706e67"/>
         </Slide>
@@ -190,7 +198,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Call to action</Heading>
           <Text textColor="secondary">
-          Add call to action to quickly contact you
+          Add a call-to-action to help recruiters get in touch
           </Text>
           <Image height="200px" width="680px" src="https://www.sistersjewelrychest.com/wp-content/uploads/2012/12/contact-me.jpg"/>
         </Slide>
@@ -208,7 +216,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Send directly to technical people</Heading>
           <Text textColor="secondary">
-          Hi, A cool website for my resume, i'm available for new job
+          "Hi, here’s a cool website for my resume… i’m available for my next challenge :) "
           </Text>
         </Slide>
         <Slide transition={["fade"]}>
