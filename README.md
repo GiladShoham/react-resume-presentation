@@ -10,6 +10,9 @@
 
 The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.md](https://github.com/FormidableLabs/spectacle/blob/master/README.md).
 
+## Sample Page
+[http://resume-presentation.surge.sh/](http://resume-presentation.surge.sh/)
+
 ## Getting Started
 
 After downloading the boilerplate, your first order of business is to open a terminal and run 
