@@ -133,6 +133,9 @@ export default class Presentation extends React.Component {
             <ListItem>You care about the quality of what you deliver</ListItem>
             <ListItem>You take pride in your work and take it seriously</ListItem>
             <ListItem>You understand how code and business goals play together</ListItem>
+            <Image height="200px" width="200px" src="http://www.affordable-internet-marketing.com/pics/outofthebox-marketing.jpg" display="inline"/>            
+            <Image height="200px" width="200px" src="http://inclinition.com/wp-content/uploads/2016/12/Quality-Assurance.jpg" display="inline"/>            
+            <Image height="200px" width="200px" src="http://proudtobeme.org.uk/graphics/Proud-To-Bee-Me-Logo.png" display="inline"/>            
           </List>
         </Slide>
 
@@ -146,6 +149,9 @@ export default class Presentation extends React.Component {
             <ListItem>Open source the code</ListItem>
             <ListItem>Tech teams can see your best work</ListItem>
             <ListItem>Get feedback and improve your coding skills</ListItem>
+            <Image height="200px" width="400px" src="https://aspira.ie/wp-content/uploads/2016/07/bartopen_source_10932-600x330.jpg" display="inline"/>            
+            <Image height="200px" width="300px" src="https://3.bp.blogspot.com/-iOTfICQgISc/Vv1WJXQ_A_I/AAAAAAAAj8w/jpEvAMRYj-EBBtmGK2r3xG2nbV9GGqUBQ/s640/bug.jpg" display="inline"/>            
+            
           </List>
         </Slide>
 
@@ -155,22 +161,25 @@ export default class Presentation extends React.Component {
           different versions for different positions
           different focus on different versions
           </Text>
-        </Slide>
-
-        <Slide transition={["fade"]}>
+          <Image height="230px" width="386px" src="https://www.ibackupstatic.com/source/images/version_banner.png"/>            
+          </Slide>
+          
+          <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>dynamic versions</Heading>
           <Text textColor="secondary">
           You can change the content any time (as opposed to a sealed PDF)
           and even perform A/B testing on your resume
           </Text>
-        </Slide>
-
-        <Slide transition={["fade"]}>
+          <Image height="230px" width="386px" src="https://www.sitespect.com/sites/default/files/2016/ab-testing-compressor.jpg"/>            
+          </Slide>
+          
+          <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>An ice breaker</Heading>
           <Text textColor="secondary">
           There is a good chance the interviewer will ask you about it. 
           It's a good start for a conversation on a project you fully control
           </Text>
+          <Image height="230px" width="230px" src="http://ladieskitty.net/wp-content/uploads/2013/01/icebreaker_games.jpg"/>            
         </Slide>
 
         <Slide transition={["fade"]}>
@@ -179,16 +188,20 @@ export default class Presentation extends React.Component {
           Using a dynamic page you can visualize cool data and make it look beautiful
           </Text>
           <Image height="200px" width="680px" src="https://camo.githubusercontent.com/03279b0709a76cdbc2bd483f6dd5161b777ad77c/687474703a2f2f692e696d6775722e636f6d2f6536446c7a66412e706e67"/>
-        </Slide>
-
-        <Slide transition={["fade"]}>
+          </Slide>
+          
+          <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>SEO</Heading>
           <Text textColor="secondary">
-          Promote your resume website, and monitor it with google analytics
+          Promote your resume website, and monitor it with  
+          <Link href="https://analytics.google.com/analytics/web/?authuser=1#/report-home/a120258822w177838555p176441319">
+          "google analytics"
+          </Link>
           </Text>
-        </Slide>
-
-        <Slide transition={["fade"]}>
+          <Image height="200px" width="200px" src="http://www.illuminationworksllc.com/wp-content/uploads/2017/01/seo.png"/>
+          </Slide>
+          
+          <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Personal touch</Heading>
           <Text textColor="secondary">
           Build a bridge between your knowledge and your personality
@@ -208,18 +221,20 @@ export default class Presentation extends React.Component {
           Show pictures and add links to your side projects
           </Text>
           <Image height="350px" width="680px" src="https://thefullpint.com/wp-content/uploads/2013/08/Side-Project.jpg"/>
-        </Slide>
-        <Slide transition={["fade"]}>
+          </Slide>
+          <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Add to your signature</Heading>
           <Image height="200px" width="680px" src="http://txt-dynamic.cdn.1001fonts.net/txt/b3RmLjE1OC4wMDAwMDAuVFhrZ1VtVnpkVzFsLjAAAA,,/arty-signature.regular.png"/>
-        </Slide>
-        <Slide transition={["fade"]}>
+          </Slide>
+          <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Send directly to technical people</Heading>
           <Text textColor="secondary">
           "Hi, here’s a cool website for my resume… i’m available for my next challenge :) "
           </Text>
+          <Image height="200px" width="200px" src="http://www.firstimpressionshsv.com/wp-content/uploads/2015/09/1a4acaa.jpg"/>
         </Slide>
         <Slide transition={["fade"]}>
+          <Heading size={6} textColor="secondary" caps>Reuse</Heading>        
           <Image height="400px" width="680px" src="http://www.learnfxtrade.com/wp81316/wp-content/uploads/2016/09/Demo-Trading-450x330.png"/>
         </Slide>
       </Deck>
