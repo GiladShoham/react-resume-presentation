@@ -120,14 +120,14 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide transition={["fade"]}>
-          <Heading size={6} textColor="secondary" caps>How is it working?</Heading>
+          <Heading size={6} textColor="secondary" caps>How does it work?</Heading>
           <Text> 
           HR often turns to the technical team for assistance and technical review of your Resume. So, your Resume is an opportunity to do more than tell your story. It’s how you can show what you can do.
           </Text>
         </Slide>
 
         <Slide transition={["fade"]}>
-          <Heading size={6} textColor="secondary" caps>What if your Resume were a React application?</Heading>
+          <Heading size={6} textColor="secondary" caps>What if your Resume was a React application?</Heading>
           <List>
             <ListItem>Out-of-the-box thinking</ListItem>
             <ListItem>You care about the quality of what you deliver</ListItem>
@@ -167,7 +167,7 @@ export default class Presentation extends React.Component {
           <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>dynamic versions</Heading>
           <Text textColor="secondary">
-          You can change the content any time (as opposed to a sealed PDF)
+          You can change the content any at time (as opposed to a sealed PDF)
           and even perform A/B testing on your resume
           </Text>
           <Image height="230px" width="386px" src="https://www.sitespect.com/sites/default/files/2016/ab-testing-compressor.jpg"/>            
@@ -193,9 +193,9 @@ export default class Presentation extends React.Component {
           <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>SEO</Heading>
           <Text textColor="secondary">
-          Promote your resume website, and monitor it with  
+          Promote your online resume, and monitor it with
           <Link href="https://analytics.google.com/analytics/web/?authuser=1#/report-home/a120258822w177838555p176441319">
-          "google analytics"
+          {' '} google analytics
           </Link>
           </Text>
           <Image height="200px" width="200px" src="http://www.illuminationworksllc.com/wp-content/uploads/2017/01/seo.png"/>
