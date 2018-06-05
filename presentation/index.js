@@ -1,6 +1,7 @@
 // Import React
 import React from "react";
-import Interests from '@bit/giladshoham.cv.sidebar.interests';
+// import ProfileContainer from "@bit/giladshoham.resume.sidebar.profile-container";
+// import ContactDetails from "@bit/giladshoham.resume.sidebar.contact-details";
 
 // Import Spectacle Core tags
 import {
@@ -80,7 +81,11 @@ export default class Presentation extends React.Component {
             linkedin.com/in/shohamgilad
             </Link>
           </Fill>
-          {/* <Interests list={['Cycling', 'Technologies', 'Reading']}/> */}
+          <Fill>
+            <Link href="https://twitter.com/ShohamGilad">
+            twitter.com/ShohamGilad
+            </Link>
+          </Fill>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Heading size={6} textColor="primary" caps>Why using React</Heading>  
@@ -221,11 +226,11 @@ export default class Presentation extends React.Component {
           Show pictures and add links to your side projects
           </Text>
           <Image height="350px" width="680px" src="https://thefullpint.com/wp-content/uploads/2013/08/Side-Project.jpg"/>
-          </Slide>
+        </Slide>
           <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Add to your signature</Heading>
           <Image height="200px" width="680px" src="http://txt-dynamic.cdn.1001fonts.net/txt/b3RmLjE1OC4wMDAwMDAuVFhrZ1VtVnpkVzFsLjAAAA,,/arty-signature.regular.png"/>
-          </Slide>
+        </Slide>
           <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Send directly to technical people</Heading>
           <Text textColor="secondary">
@@ -236,6 +241,35 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]}>
           <Heading size={6} textColor="secondary" caps>Reuse</Heading>        
           <Image height="400px" width="680px" src="http://www.learnfxtrade.com/wp81316/wp-content/uploads/2016/09/Demo-Trading-450x330.png"/>
+        </Slide>
+        
+        <Slide transition={["zoom"]} bgColor="primary">
+          <Heading size={6} textColor="secondary" caps>Links</Heading> 
+          <Fill>
+            <Link href="https://github.com/GiladShoham/react-resume-presentation">
+            this presentation - GitHub
+            </Link>
+          </Fill>
+          <Fill>
+            <Link href="http://resume-presentation.surge.sh/#/">
+            this presentation - online version
+            </Link>
+          </Fill>
+          <Fill>
+            <Link href="https://github.com/GiladShoham/react-cv-template">
+            react-cv-template - GitHub
+            </Link>
+          </Fill>
+          <Fill>
+            <Link href="http://gilad-resume.surge.sh/">
+            Gilad Shoham - online resume
+            </Link>
+          </Fill>
+          <Fill>
+            <Link href="http://bitsrc.io">
+            bitsrc.io
+            </Link>
+          </Fill>
         </Slide>
       </Deck>
     );
