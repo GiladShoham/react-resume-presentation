@@ -14,7 +14,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@bit/giladshoham.cv.sidebar.interests": "^0.0.2",
+    "@bit/giladshoham.resume.sidebar.contact-details": "0.0.1",
+    "@bit/giladshoham.resume.sidebar.profile-container": "0.0.1",
     "normalize.css": "7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
